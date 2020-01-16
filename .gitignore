@@ -1,0 +1,8 @@
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Production mode directories
+dist/
+server-bundle.js
+webpack-assets.json

@@ -1,0 +1,19 @@
+{
+  "processors": [
+    [
+      "stylelint-processor-styled-components",
+      {
+        "moduleName": "styled"
+      }
+    ]
+  ],
+    "extends": [
+      "stylelint-config-recommended",
+      "stylelint-config-standard",
+      "stylelint-config-styled-components"
+    ],
+    "rules": {
+        "declaration-colon-newline-after":null,
+        "function-parentheses-newline-inside":null
+    }
+  }
